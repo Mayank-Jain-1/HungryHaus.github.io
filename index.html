@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -49,37 +52,76 @@
           <option value="Chennai" class="locationOption">Chennai</option>
         </select>
         <h5>Cuisine</h5>
-        <label class="cuisine">North Indian
-          <input type="checkbox" name="northIndian" id="northIndian">
-          <span class="checkmark">
-            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
-          </span>
-        </label>
-        <label class="cuisine">South Indian
-          <input type="checkbox" name="southIndian" id="southIndian" checked>
-          <span class="checkmark">
-            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
-          </span>
-        </label>
-        <label class="cuisine">Chinese
-          <input type="checkbox" name="chinese" id="chinese" checked>
-          <span class="checkmark">
-            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
-          </span>
-        </label>
-        <label class="cuisine">Fast Food
-          <input type="checkbox" name="fastFood" id="fastFood">
-          <span class="checkmark">
-            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
-          </span>
-        </label>
-        <label class="cuisine">Street Food
-          <input type="checkbox" name="streetFood" id="streetFood">
-          <span class="checkmark">
-            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
-          </span>
-        </label>
-      </div>
+        <div class="cuisines">
+          <label class="cuisine"
+            >North Indian
+            <input type="checkbox" name="northIndian" id="northIndian" />
+            <span class="checkmark">
+              <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+            </span>
+          </label>
+          <label class="cuisine"
+            >South Indian
+            <input
+              type="checkbox"
+              name="southIndian"
+              id="southIndian"
+              checked
+            />
+            <span class="checkmark">
+              <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+            </span>
+          </label>
+          <label class="cuisine"
+            >Chinese
+            <input type="checkbox" name="chinese" id="chinese" checked />
+            <span class="checkmark">
+              <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+            </span>
+          </label>
+          <label class="cuisine"
+            >Fast Food
+            <input type="checkbox" name="fastFood" id="fastFood" />
+            <span class="checkmark">
+              <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+            </span>
+          </label>
+          <label class="cuisine"
+            >Street Food
+            <input type="checkbox" name="streetFood" id="streetFood" />
+            <span class="checkmark">
+              <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+            </span>
+          </label>
+        </div>
+        <h5>Cost For Two</h5>
+        <div class="costRange">
+          <label class="cost">Less than 500
+            <input type="radio" name="costRange" value="500">
+            <span class="radioCircle"></span>
+            <span class="radioInnerCircle"></span>
+          </label>
+          <label class="cost">` 500 to ` 1000
+            <input type="radio" name="costRange" value="500-1000">
+            <span class="radioCircle"></span>
+            <span class="radioInnerCircle"></span>
+          </label>
+          <label class="cost">` 1000 to ` 1500
+            <input type="radio" name="costRange" value="1000-1500">
+            <span class="radioCircle"></span>
+            <span class="radioInnerCircle"></span>
+          </label>
+          <label class="cost">` 1500 to ` 2000
+            <input type="radio" name="costRange" value="1500-2000">
+            <span class="radioCircle"></span>
+            <span class="radioInnerCircle"></span>
+          </label>
+          <label class="cost">` 2000+
+            <input type="radio" name="costRange" value="2000+">
+            <span class="radioCircle"></span>
+            <span class="radioInnerCircle"></span>
+          </label>
+        </div>
       </form>
     </div>
   </body>
