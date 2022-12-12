@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Poppins';
+}
+
+.darkBlue{
+  color: #192F60;
+}
+
 .navbar{
   background-color: #CE0505;
   padding:20px 30px;
@@ -13,7 +21,7 @@
 .navContainer{
   width: 100%;
   display: flex;
-  max-width: 1200px;
+  max-width: 1163px;
   justify-content: space-between;
   align-items: center;
 }
@@ -53,7 +61,45 @@
   border: 1px solid #FFFFFF;
 }
 
+.main{
+  max-width: 1163px;
+  margin: auto;
+  padding: 30px 24px;
+  background-color: bisque;
+}
 
+.resultHeading{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.filtersButton{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 21px 14px 21px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+
+}
+
+.arrow{
+  border-right: 2px solid #8C96AB;
+  border-bottom: 2px solid #8C96AB;
+  height: 10px;
+  width: 10px;
+}
+
+.arrowDown{
+  transform: rotate(45deg);
+}
+
+.arrowUp{
+  transform: translateY(7px) rotate(-135deg);
+}
 
 @media (width <= 769px) {
   .navbarBrand{
@@ -65,5 +111,9 @@
   .navLink{
     font-size: 12px;
     padding: 5px 15px;
+  }
+
+  .resultHeading{
+    font-size: 20px;
   }
 }
