@@ -208,6 +208,29 @@ body{
   background-color: #00000020;
 }
 
+.sort{
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 30px;
+  color: #8C96AB;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.sort input{
+  opacity: 0;
+}
+
+.sort input:checked ~ .radioInnerCircle{
+  background-color: #192F60;
+  transition: 0.2s;
+}
+
+.sort:hover .radioInnerCircle{
+  background-color: #00000020;
+}
+
 @media (width <= 769px) {
   .navbarBrand{
     font-size: 25px;
