@@ -65,7 +65,6 @@ body{
   max-width: 1163px;
   margin: auto;
   padding: 30px 24px;
-  background-color: bisque;
 }
 
 .resultHeading{
@@ -100,6 +99,34 @@ body{
 .arrowUp{
   transform: translateY(7px) rotate(-135deg);
 }
+
+.filters{
+  padding: 17px 26px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.filters h4{
+  color: #192F60;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.filters h5{
+  color: #192F60;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.locationSelect{
+  width: 100%;
+  border: 1px solid #8C96AB;
+  font-size: 14px;
+  color: #8C96AB;
+  padding: 10px;
+  margin-bottom: 22px;
+}
+
 
 @media (width <= 769px) {
   .navbarBrand{

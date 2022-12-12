@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
     <title>HungryHaus</title>
   </head>
   <body>
@@ -20,8 +20,8 @@
         <h1 class="navbarBrand">Hh</h1>
         <div class="navbarLinkDiv">
           <ul class="navLinks">
-              <a class="navLink login-button" href="">Login </a>
-              <a class="navLink signup-button" href="">Create an account</a>
+            <a class="navLink login-button" href="">Login </a>
+            <a class="navLink signup-button" href="">Create an account</a>
           </ul>
         </div>
       </div>
@@ -30,12 +30,45 @@
     <div class="main">
       <h1 class="darkBlue resultHeading">Breakfast Places in Mumbai</h1>
       <button class="filtersButton">
-        <p class="darkBlue">Filters / Sort </p>
+        <p class="darkBlue">Filters / Sort</p>
         <i class="arrow arrowDown"></i>
       </button>
-      <div class="filters">
-        
+      <form method="GET" class="filters">
+        <h4>Filters</h4>
+        <h5>Select Location</h5>
+        <select class="locationSelect">
+          <option value="none" class="locationOption">
+            <p>Select Location</p>
+          </option>
+          <option value="Ludhiana" class="locationOption">Ludhiana</option>
+          <option value="Bhopal" class="locationOption">Bhopal</option>
+          <option value="Chandigarh" class="locationOption">Chandigarh</option>
+          <option value="Delhi" class="locationOption">Delhi</option>
+          <option value="Mumbai" class="locationOption">Mumbai</option>
+          <option value="Chennai" class="locationOption">Chennai</option>
+        </select>
+        <h5>Cuisine</h5>
+        <div class="Cuisine">
+          <input type="checkbox" name="northIndian" id="northIndian">
+          <label>North Indian</label>
+        </div>
+        <div class="Cuisine">
+          <input type="checkbox" name="southIndian" id="southIndian">
+          <label>South Indian</label>
+        </div>
+        <div class="Cuisine">
+          <input type="checkbox" name="chinese" id="chinese">
+          <label>Chinese</label>
+        </div>
+        <div class="Cuisine">
+          <input type="checkbox" name="fastFood" id="fastFood">
+          <label>Fast Food</label>
+        </div>
+        <div class="Cuisine">
+          <input type="checkbox" name="streetFood" id="streetFood">
+          <label>Street Food</label>
       </div>
+      </form>
     </div>
   </body>
 </html>
