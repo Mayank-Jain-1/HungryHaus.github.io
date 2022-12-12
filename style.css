@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: #CE0505;
+  padding:20px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbarNav{
+  background-color: aqua;
+  width: 200px;
+}
+
+.navbarBrand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #EB2929;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font: normal normal 600 30px Poppins;
+  font-weight: bold;
+}
+
+.navLinks{
+  display: flex;
+  list-style: none;
+}
+.navLink{
+  color: white;
+  font: normal normal  300 16px/25px "Poppins";
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+}
+.signup-button{
+  border: 1px solid #FFFFFF;
+}
