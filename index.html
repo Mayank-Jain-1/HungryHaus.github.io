@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -48,25 +49,36 @@
           <option value="Chennai" class="locationOption">Chennai</option>
         </select>
         <h5>Cuisine</h5>
-        <div class="Cuisine">
+        <label class="cuisine">North Indian
           <input type="checkbox" name="northIndian" id="northIndian">
-          <label>North Indian</label>
-        </div>
-        <div class="Cuisine">
-          <input type="checkbox" name="southIndian" id="southIndian">
-          <label>South Indian</label>
-        </div>
-        <div class="Cuisine">
-          <input type="checkbox" name="chinese" id="chinese">
-          <label>Chinese</label>
-        </div>
-        <div class="Cuisine">
+          <span class="checkmark">
+            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+          </span>
+        </label>
+        <label class="cuisine">South Indian
+          <input type="checkbox" name="southIndian" id="southIndian" checked>
+          <span class="checkmark">
+            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+          </span>
+        </label>
+        <label class="cuisine">Chinese
+          <input type="checkbox" name="chinese" id="chinese" checked>
+          <span class="checkmark">
+            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+          </span>
+        </label>
+        <label class="cuisine">Fast Food
           <input type="checkbox" name="fastFood" id="fastFood">
-          <label>Fast Food</label>
-        </div>
-        <div class="Cuisine">
+          <span class="checkmark">
+            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+          </span>
+        </label>
+        <label class="cuisine">Street Food
           <input type="checkbox" name="streetFood" id="streetFood">
-          <label>Street Food</label>
+          <span class="checkmark">
+            <i class="zmdi zmdi-check zmdi-hc-lg"></i>
+          </span>
+        </label>
       </div>
       </form>
     </div>
