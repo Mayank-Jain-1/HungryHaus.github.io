@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -146,11 +145,6 @@ body{
   color: #8C96AB;
   padding: 10px;
   margin-bottom: 22px;
-}
-
-.locationOption{
-  color: red;
-  border: 3px solid black;
 }
 
 #opt1{
@@ -462,5 +456,11 @@ body{
 
   .applyFilters{
     display: block;
+  }
+}
+
+@media (width>769px) {
+  .filters{
+    display:block !important;
   }
 }
