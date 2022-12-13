@@ -5,6 +5,11 @@
 
 body{
   font-family: 'Poppins';
+  background-color: #FBFBFB;
+}
+
+.noDisplay{
+  display: none !important;
 }
 
 .darkBlue{
@@ -59,6 +64,15 @@ body{
 }
 .signup-button{
   border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.signup-button:hover{
+  background-color: white;
+  color: #EB2929;
+
+  transition: 0.2s;
 }
 
 .main{
@@ -70,19 +84,23 @@ body{
 .resultHeading{
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .filtersButton{
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: space-between;
   padding: 16px 21px 14px 21px;
   font-size: 16px;
   font-weight: 600;
   background-color: white;
   border: 1px solid #E0E0E0;
+  margin-bottom: 7px;
+}
 
+.mainContent{
+  display: flex;
 }
 
 .arrow{
@@ -101,8 +119,10 @@ body{
 }
 
 .filters{
+  width: 260px;
   padding: 17px 26px;
-  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .filters h4{
@@ -231,6 +251,66 @@ body{
   background-color: #00000020;
 }
 
+.products{
+  width: 100%;
+  margin-left: 45px;
+}
+
+.product{
+  padding: 25px 35px;
+  box-shadow: 0px 0px ;
+  box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  margin-bottom: 35px;
+}
+
+
+.product  img{
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.productHead{
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #DEDFE5;
+}
+
+.placeDesc{
+  margin-left: 40px;
+}
+
+.placeDesc h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.placeDesc h4{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.placeDesc p{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.productFoot{
+  margin-top: 25px;
+  display: flex;
+}
+.productFoot p{
+  margin-bottom: 5px;
+}
+.featureLabels{
+  padding-right: 20px;
+  font-size: 16px;
+  color: #636F88;
+  margin-right: 35px;
+}
+
 @media (width <= 769px) {
   .navbarBrand{
     font-size: 25px;
@@ -245,5 +325,13 @@ body{
 
   .resultHeading{
     font-size: 20px;
+  }
+
+  .filtersButton{
+    display: flex;
+  }
+
+  .filters{
+    width: auto;
   }
 }
