@@ -311,13 +311,46 @@ body{
   margin-right: 35px;
 }
 
+
+.productsNavButtons{
+  display: flex;
+  justify-content: center;
+}
+
+.productButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #8C96AB;
+  border-radius: 7px;
+  color: #8C96AB;
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.selectedButton{
+  background-color: #8C96AB;
+  color:white;
+}
+
+#prevButton i{
+  transform: translateX(3px) rotate(45deg);
+}
+
+#nextButton i{
+  transform: translateX(-3px) rotate(-135deg);
+}
 @media (width <= 769px) {
   .navbarBrand{
     font-size: 25px;
     width:50px;
     height: 50px;
   }
-
+  
   .navLink{
     font-size: 12px;
     padding: 5px 15px;
