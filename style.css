@@ -63,7 +63,7 @@ body{
   padding: 10px 20px;
 }
 .signup-button{
-  border: 1px solid #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 3px;
   transition: 0.2s;
 }
