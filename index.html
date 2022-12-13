@@ -33,12 +33,12 @@
 
     <div class="main">
       <h1 class="darkBlue resultHeading">Breakfast Places in Mumbai</h1>
-      <button class="filtersButton">
+      <button onclick="toggleFilters()" class="filtersButton">
         <p class="darkBlue">Filters / Sort</p>
         <i class="arrow arrowDown"></i>
       </button>
       <div class="mainContent">
-        <form method="GET" class="filters">
+        <form id="filters" method="GET" class="filters">
           <h4>Filters</h4>
           <h5>Select Location</h5>
           <select class="locationSelect">
@@ -219,4 +219,5 @@
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
