@@ -251,6 +251,24 @@ body{
   background-color: #00000020;
 }
 
+.applyFilters{
+  display: none;
+  color: #CE0505;
+  background-color: white;
+  border: 1.5px solid #CE0505;
+  height: 40px;
+  font-size: 16px;
+  margin: 33px 0px 20px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.applyFilters:hover{
+  background-color: #CE0505;
+  color: white;
+}
+
 .products{
   width: 750px;
   margin-left: 45px;
@@ -429,5 +447,9 @@ body{
     height: 32px;
     font-size: 17px;
     margin-right: 10px;
+  }
+
+  .applyFilters{
+    display: block;
   }
 }
