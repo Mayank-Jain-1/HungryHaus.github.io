@@ -374,8 +374,10 @@ body{
 
   .filters{
     display: none;
+    flex-direction: column;
+    justify-self: center;
     position: absolute;
-    width: 87vw;
+    width: 100vw;
     z-index: 1;
   }
 
@@ -414,5 +416,12 @@ body{
   
   .features{
     font-size: 13px;
+  }
+
+  .productButton{
+    width: 32px;
+    height: 32px;
+    font-size: 17px;
+    margin-right: 10px;
   }
 }
