@@ -252,7 +252,7 @@ body{
 }
 
 .products{
-  width: 100%;
+  width: 750px;
   margin-left: 45px;
 }
 
@@ -345,6 +345,9 @@ body{
   transform: translateX(-3px) rotate(-135deg);
 }
 @media (width <= 769px) {
+  .main{
+    padding: 30px 0px;
+  }
   .navbarBrand{
     font-size: 25px;
     width:50px;
@@ -357,14 +360,59 @@ body{
   }
 
   .resultHeading{
+    margin-left: 24px;
     font-size: 20px;
   }
 
   .filtersButton{
+    margin-bottom: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 90vw;
     display: flex;
   }
 
   .filters{
-    width: auto;
+    display: none;
+    position: absolute;
+    width: 87vw;
+    z-index: 1;
+  }
+
+  .products{
+    margin-left: 0; 
+  }
+
+  .product{
+    padding: 30px 25px;
+    margin-bottom: 25px;
+  }
+
+  
+  .product img{
+    width: 70px;
+    height: 70px;
+  }
+  .placeDesc{
+    margin-left: 15px;
+  }
+  .placeDesc h1{
+    font-size: 20px;
+  }
+  .placeDesc h4{
+    font-size: 13px;
+    margin-bottom: 0px;
+  }
+  
+  .placeDesc p{
+    font-size: 12px;
+  }
+  
+  .featureLabels{
+    font-size: 13px;
+  }
+  
+  .features{
+    font-size: 13px;
   }
 }
