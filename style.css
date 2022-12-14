@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
@@ -147,6 +148,16 @@ body{
   margin-bottom: 22px;
 }
 
+.locationOption{
+  color: red;
+  border: 3px solid black;
+}
+
+#opt1{
+  color: cadetblue;
+  border: 3px solid black;
+}
+
 .cuisines{
   margin-bottom: 25px;
 }
@@ -214,8 +225,8 @@ body{
 .radioInnerCircle{
   position: absolute;
   left: 2.5px;
-  width: 16px;
-  height: 16px;
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
 }
 
@@ -390,7 +401,7 @@ body{
     margin-bottom: 18px;
     margin-left: 24px;
     margin-right: 24px;
-    width: 100%;
+    width: 90vw;
     display: flex;
   }
 
@@ -400,12 +411,12 @@ body{
     justify-self: center;
     position: absolute;
     width: 94vw;
-    left: 3vw;
+    left: 3%;
     z-index: 1;
   }
 
   .products{
-    margin-left: 5px;
+    margin-left: 0px;
   }
 
   .product{
